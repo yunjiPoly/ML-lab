@@ -1,0 +1,62 @@
+[
+  {
+    "id": 89631139,
+    "name": "Blue-Eyes White Dragon",
+    "type": "Normal Monster",
+    "image": "data\\cards\\89631139.jpg"
+  },
+  {
+    "id": 46986414,
+    "name": "Dark Magician",
+    "type": "Normal Monster",
+    "image": "data\\cards\\46986414.jpg"
+  },
+  {
+    "id": 38033121,
+    "name": "Dark Magician Girl",
+    "type": "Effect Monster",
+    "image": "data\\cards\\38033121.jpg"
+  },
+  {
+    "id": 74677422,
+    "name": "Red-Eyes Black Dragon",
+    "type": "Normal Monster",
+    "image": "data\\cards\\74677422.jpg"
+  },
+  {
+    "id": 33396948,
+    "name": "Exodia the Forbidden One",
+    "type": "Effect Monster",
+    "image": "data\\cards\\33396948.jpg"
+  },
+  {
+    "id": 40640057,
+    "name": "Kuriboh",
+    "type": "Effect Monster",
+    "image": "data\\cards\\40640057.jpg"
+  },
+  {
+    "id": 83764719,
+    "name": "Monster Reborn",
+    "type": "Spell Card",
+    "image": "data\\cards\\83764719.jpg"
+  },
+  {
+    "id": 55144522,
+    "name": "Pot of Greed",
+    "type": "Spell Card",
+    "image": "data\\cards\\55144522.jpg"
+  },
+  {
+    "id": 44095762,
+    "name": "Mirror Force",
+    "type": "Trap Card",
+    "image": "data\\cards\\44095762.jpg"
+  },
+  {
+    "id": 24094653,
+    "name": "Polymerization",
+    "type": "Spell Card",
+    "image": "data\\cards\\24094653.jpg"
+  }
+]
