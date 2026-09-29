@@ -196,3 +196,19 @@ def test_variants_respect_limit() -> None:
 
 def test_variants_unicode_dash_and_case() -> None:
     assert set_code_variants("jotl–en045")[0] == "JOTL-EN045"
+
+
+class TestNormalizeRarityCode:
+    def test_strips_parentheses_and_whitespace(self) -> None:
+        from app.core.text import normalize_rarity_code
+
+        assert normalize_rarity_code("(ScR)") == "ScR"
+        assert normalize_rarity_code(" (UR) ") == "UR"
+        assert normalize_rarity_code("C") == "C"
+
+    def test_empty_values_become_none(self) -> None:
+        from app.core.text import normalize_rarity_code
+
+        assert normalize_rarity_code(None) is None
+        assert normalize_rarity_code("") is None
+        assert normalize_rarity_code("()") is None

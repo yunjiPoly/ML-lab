@@ -245,3 +245,15 @@ def set_code_prefix(code: str) -> str:
     """Return the set prefix (``JOTL`` for ``JOTL-EN045``) or the whole code if unparseable."""
     parts = split_set_code(normalize_set_code(code))
     return parts[0] if parts else normalize_set_code(code)
+
+
+def normalize_rarity_code(value: object) -> str | None:
+    """Canonical rarity code: ``"(ScR)"`` / ``" scr "`` -> ``"ScR"``; empty -> ``None``.
+
+    YGOPRODeck wraps rarity codes in parentheses; we store the bare code so
+    presentation layers can add their own punctuation without doubling it.
+    """
+    if value is None:
+        return None
+    text = str(value).strip().strip("()").strip()
+    return text or None

@@ -51,7 +51,7 @@ def test_parse_card_armades_fields_and_printings(ygoprodeck_sample: dict) -> Non
     jotl = next(p for p in record.printings if p.set_code == "JOTL-EN045")
     assert jotl.set_name == "Judgment of the Light"
     assert jotl.rarity == "Secret Rare"
-    assert jotl.rarity_code == "(ScR)"
+    assert jotl.rarity_code == "ScR"  # provider value "(ScR)" is stored without parentheses
     # BLGG-EN090 exists in two rarities and both must survive parsing.
     blgg = [p for p in record.printings if p.set_code == "BLGG-EN090"]
     assert {p.rarity for p in blgg} == {"Secret Rare", "Starlight Rare"}

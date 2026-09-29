@@ -95,7 +95,7 @@ def format_report(result: RecognitionResult, image_path: Path) -> str:
     out.append(f"  card:       {f'[{result.card.id}] {result.card.name}' if result.card else '-'}")
     if result.printing:
         p = result.printing
-        code = p.rarity_code.strip("()") if p.rarity_code else ""
+        code = p.rarity_code or ""
         rarity = (f"{p.rarity}" + (f" ({code})" if code else "")) if p.rarity else "-"
         out.append(f"  printing:   {p.set_code} / {p.set_name} / {rarity}")
     else:

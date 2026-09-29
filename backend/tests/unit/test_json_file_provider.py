@@ -65,7 +65,7 @@ def test_parse_legacy_card() -> None:
     assert record.description == "1 Tuner + 1 or more non-Tuner monsters"
     assert record.race is None and record.def_ is None
     assert [(p.set_code, p.set_name, p.rarity, p.rarity_code) for p in record.printings] == [
-        ("JOTL-EN045", "Judgment of the Light", "Secret Rare", "(ScR)"),
+        ("JOTL-EN045", "Judgment of the Light", "Secret Rare", "ScR"),
         ("BLGG-EN090", "Battles of Legend: Glorious Gallery", "Starlight Rare", None),
     ]
     assert record.artworks == [ArtworkRecord(88033975, "https://images.ygoprodeck.com/images/cards/88033975.jpg")]

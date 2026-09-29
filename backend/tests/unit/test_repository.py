@@ -46,7 +46,7 @@ def test_upsert_creates_card_with_children(memory_db: Database, armades: CardRec
         assert len(card.printings) == 5
         by_key = {(p.set_code, p.rarity): p for p in card.printings}
         assert by_key[("JOTL-EN045", "Secret Rare")].set_name == "Judgment of the Light"
-        assert by_key[("JOTL-EN045", "Secret Rare")].rarity_code == "(ScR)"
+        assert by_key[("JOTL-EN045", "Secret Rare")].rarity_code == "ScR"
         assert ("BLGG-EN090", "Secret Rare") in by_key and ("BLGG-EN090", "Starlight Rare") in by_key
 
 

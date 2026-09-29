@@ -23,7 +23,7 @@ from pathlib import Path
 
 import requests
 
-from app.core.text import normalize_card_name
+from app.core.text import normalize_card_name, normalize_rarity_code
 from app.services.providers.base import ArtworkRecord, CardDataProvider, CardRecord, PrintingRecord
 from app.services.providers.ygoprodeck import RetryingHttpClient, download_to_path, parse_card
 
@@ -66,7 +66,7 @@ def parse_legacy_card(payload: dict) -> tuple[CardRecord, dict[int, str]]:
             set_code=str(printing.get("set_code") or "").strip(),
             set_name=str(printing.get("set_name") or "").strip(),
             rarity=_opt_str(printing.get("rarity")),
-            rarity_code=_opt_str(printing.get("rarity_code")),
+            rarity_code=normalize_rarity_code(printing.get("rarity_code")),
         )
         for printing in payload.get("printings") or []
         if printing.get("set_code")

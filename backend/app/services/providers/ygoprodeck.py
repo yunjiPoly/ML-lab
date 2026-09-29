@@ -21,6 +21,7 @@ from pathlib import Path
 
 import requests
 
+from app.core.text import normalize_rarity_code
 from app.services.providers.base import ArtworkRecord, CardDataProvider, CardRecord, PrintingRecord
 
 logger = logging.getLogger(__name__)
@@ -80,7 +81,7 @@ def parse_card(payload: dict) -> CardRecord:
             set_code=str(card_set.get("set_code") or "").strip(),
             set_name=str(card_set.get("set_name") or "").strip(),
             rarity=_opt_str(card_set.get("set_rarity")),
-            rarity_code=_opt_str(card_set.get("set_rarity_code")),
+            rarity_code=normalize_rarity_code(card_set.get("set_rarity_code")),
         )
         for card_set in payload.get("card_sets") or []
         if card_set.get("set_code")
