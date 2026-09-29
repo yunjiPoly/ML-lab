@@ -143,9 +143,13 @@ class JsonFileProvider(CardDataProvider):
         return records
 
     def _resolve_local_image(self, raw_path: str) -> Path | None:
-        """Find a legacy image path: as written, relative to the JSON file, or to its parent."""
+        """Find a legacy image path: as written, relative to the JSON file, its parent, or the cwd.
+
+        The JSON file's own directories are tried before the current working
+        directory so a catalog is self-contained wherever the process runs.
+        """
         candidate = Path(raw_path.replace("\\", "/"))
-        bases = [Path.cwd(), self.path.parent, self.path.parent.parent]
+        bases = [self.path.parent, self.path.parent.parent, Path.cwd()]
         options = [candidate] if candidate.is_absolute() else [base / candidate for base in bases]
         for option in options:
             if option.is_file():

@@ -48,3 +48,6 @@ frontend/.vite/
 .idea/
 .DS_Store
 Thumbs.db
+
+# --- claude desktop app (machine-specific launch config) ---
+.claude/launch.json

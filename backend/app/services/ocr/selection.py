@@ -30,9 +30,10 @@ def name_plausibility(text: str) -> float:
     * all punctuation / no alphanumerics -> 0.05
     * fewer than :data:`MIN_NAME_LETTERS` letters -> 0.30
     * less than :data:`MIN_NAME_LETTER_RATIO` letters+spaces -> scaled down
-    * longer readings get a mild bonus: CTC decoders report higher confidence
-      for shorter (truncated) outputs, so "ARMADESKEEPEOBOUNDR" at 0.71 should
-      not beat "ARMADES, KEEPER OF BOUNDARIES" at 0.65.
+    * longer readings get a mild bonus (up to 15 %, saturating at 20 letters):
+      CTC decoders can report decent confidence for truncated outputs, so this
+      breaks near-ties in favour of the fuller reading without overriding a
+      clear confidence gap.
     """
     stripped = text.strip()
     if not stripped:

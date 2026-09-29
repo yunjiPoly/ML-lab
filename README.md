@@ -216,7 +216,24 @@ Prints detection info, raw / normalized OCR values with confidences, candidate
 matches and the final result.  With `--debug` it writes the detected contour,
 normalized card, ROI overlays, name / set-code crops and every preprocessed OCR
 variant under `data\debug\<image-name>\`.  `--json` prints the raw
-`RecognitionResult`.
+`RecognitionResult`.  Exit code is `0` for `MATCHED`, `2` for any other status,
+`1` if the image cannot be decoded.
+
+Example output for the development photo:
+
+```
+OCR
+  name       raw='ARMADES, KEEPER OF BOUNDARIES'  confidence=0.996  variant=tight_invert
+  set code   raw='JOTL-EN045'  confidence=0.999  variant=up3_adaptive
+Result
+  status:     MATCHED
+  card:       [88033975] Armades, Keeper of Boundaries
+  printing:   JOTL-EN045 / Judgment of the Light / Secret Rare (ScR)
+  confidence: 1.000 (application score, not a probability)
+```
+
+The first run in a process takes ~10 s (Paddle import + model load); afterwards a
+photo takes roughly one second on CPU.
 
 ## 8. Tests
 
@@ -235,8 +252,13 @@ $env:RUN_OCR_TESTS="1"; python -m pytest backend\tests -m "integration or ocr" -
 
 All settings are environment variables (see `.env.example`): `DATABASE_URL`,
 `DEBUG`, `SAVE_DEBUG_IMAGES`, `CORS_ORIGINS`, `CORS_ORIGIN_REGEX`, `OCR_DEVICE`,
-`OCR_REC_MODEL`, `OCR_SCALE`, `CARD_LAYOUT`, `MAX_UPLOAD_BYTES`, resolver thresholds, ...
+`OCR_REC_MODEL`, `OCR_WARMUP_ON_STARTUP`, `OCR_SCALE`, `CARD_LAYOUT`,
+`MAX_UPLOAD_BYTES`, `MAX_IMAGE_SIDE`, resolver thresholds, ...
 No cloud account is required.
+
+By default the API loads the OCR model lazily on the first `/api/recognize`
+request (about 10 s).  Set `OCR_WARMUP_ON_STARTUP=true` to load it in the
+background when the server starts.
 
 ## 10. Known limitations
 

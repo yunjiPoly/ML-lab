@@ -136,7 +136,8 @@ class RetryingHttpClient:
         clock: Callable[[], float] = time.monotonic,
     ) -> None:
         self._session = session or requests.Session()
-        self._session.headers.setdefault("User-Agent", USER_AGENT)
+        # requests ships its own default UA; always identify this project instead.
+        self._session.headers["User-Agent"] = USER_AGENT
         self._delay = max(0.0, request_delay_seconds)
         self._timeout = timeout_seconds
         self._max_retries = max(0, max_retries)

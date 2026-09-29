@@ -65,6 +65,12 @@ class Settings(BaseSettings):
         description="When true the API also writes debug images under debug_dir. "
         "Uploaded images are never persisted otherwise.",
     )
+    max_image_side: int = Field(
+        default=2600,
+        ge=0,
+        description="Photos whose longest side exceeds this are downscaled before processing "
+        "(bounds processing time; keeps enough resolution for OCR). 0 disables.",
+    )
 
     # ---------------------------------------------------------- card layout
     card_width: int = 421
@@ -91,6 +97,10 @@ class Settings(BaseSettings):
         description="PaddleOCR text-recognition model name (PP-OCRv6_medium_rec, PP-OCRv6_small_rec, ...).",
     )
     ocr_min_confidence: float = Field(default=0.30, description="Below this an OCR field is treated as unusable.")
+    ocr_warmup_on_startup: bool = Field(
+        default=False,
+        description="API: load the OCR model in a background thread at startup instead of on the first request.",
+    )
 
     # ------------------------------------------------------------- resolver
     resolver_name_candidate_threshold: float = Field(

@@ -16,6 +16,7 @@ from __future__ import annotations
 import logging
 import os
 import threading
+import warnings
 from collections.abc import Callable, Iterable, Sequence
 from typing import Any, Protocol
 
@@ -39,9 +40,9 @@ class TextRecognitionEngine(Protocol):
 
 def _quiet_paddle_environment() -> None:
     """Silence Paddle/PaddleX console chatter.  Must run BEFORE importing paddleocr."""
-    os.environ.setdefault("GLOG_minloglevel", "2")
-    os.environ.setdefault("FLAGS_logtostderr", "0")
-    os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "1")
+    os.environ.setdefault("GLOG_minloglevel", "2")  # C++ glog: errors only
+    os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "1")  # no network probe for model sources
+    warnings.filterwarnings("ignore", message="No ccache found", category=UserWarning)
     for noisy in ("paddlex", "paddleocr", "paddle"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
 
@@ -201,17 +202,30 @@ class PaddleOCRProvider(OCRProvider):
         return result
 
     def _predict_batch(self, items: Sequence[tuple[str, np.ndarray]]) -> list[Reading]:
-        """Run every prepared variant through the engine in one call."""
+        """Run the prepared variants through the engine, one call per image shape.
+
+        PaddleOCR resizes a whole batch to the aspect ratio of its widest
+        member, so images of different shapes would distort each other.  The
+        shipped variant lists put every variant on one canvas, which makes this
+        a single ``predict`` call; custom lists with mixed shapes degrade to one
+        call per distinct shape and stay deterministic.
+        """
         engine = self._get_engine()
-        images = [img for _, img in items]
-        with self._lock:
-            results = list(engine.predict(input=images, batch_size=max(1, len(images))))
-        if len(results) != len(items):
-            logger.warning("PaddleOCR returned %d results for %d inputs", len(results), len(items))
-        readings: list[Reading] = []
-        for (variant_name, _), result in zip(items, results):
-            payload = _result_payload(result)
-            text = str(payload.get("rec_text") or "")
-            score = float(payload.get("rec_score") or 0.0)
-            readings.append((variant_name, text, score, payload))
-        return readings
+        groups: dict[tuple[int, int], list[int]] = {}
+        for index, (_, img) in enumerate(items):
+            groups.setdefault((img.shape[0], img.shape[1]), []).append(index)
+        if len(groups) > 1:
+            logger.debug("OCR variants span %d image shapes; running %d predict calls", len(groups), len(groups))
+        readings: list[Reading | None] = [None] * len(items)
+        for indices in groups.values():
+            images = [items[i][1] for i in indices]
+            with self._lock:
+                results = list(engine.predict(input=images, batch_size=max(1, len(images))))
+            if len(results) != len(images):
+                logger.warning("PaddleOCR returned %d results for %d inputs", len(results), len(images))
+            for i, result in zip(indices, results):
+                payload = _result_payload(result)
+                text = str(payload.get("rec_text") or "")
+                score = float(payload.get("rec_score") or 0.0)
+                readings[i] = (items[i][0], text, score, payload)
+        return [r for r in readings if r is not None]

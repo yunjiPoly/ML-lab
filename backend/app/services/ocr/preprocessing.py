@@ -70,6 +70,38 @@ def upscale(image: np.ndarray, factor: float, interpolation: int = cv2.INTER_CUB
     return cv2.resize(image, size, interpolation=interpolation)
 
 
+def resize_to(image: np.ndarray, width: int, height: int) -> np.ndarray:
+    """Resize to exactly ``width x height`` (aspect ratio NOT preserved).
+
+    Each axis is handled separately so shrinking uses area interpolation and
+    enlarging uses bicubic, which keeps thin glyph strokes clean when a strip
+    is squeezed vertically but stretched horizontally.
+    """
+    width, height = max(1, int(width)), max(1, int(height))
+    h, w = image.shape[:2]
+    if (w, h) == (width, height):
+        return image.copy()
+    out = image
+    if height != h:
+        out = cv2.resize(out, (w, height), interpolation=cv2.INTER_AREA if height < h else cv2.INTER_CUBIC)
+    if width != w:
+        out = cv2.resize(out, (width, height), interpolation=cv2.INTER_AREA if width < w else cv2.INTER_CUBIC)
+    return out
+
+
+def stretch(image: np.ndarray, factor: float) -> np.ndarray:
+    """Scale the width only by ``factor`` (height unchanged).
+
+    CTC recognizers emit one prediction per horizontal time-step; a long name
+    squeezed into a wide strip gets too few steps and drops letters.  Widening
+    the strip is the cheapest fix and PP-OCR is robust to the distortion.
+    """
+    if factor <= 0:
+        raise ValueError("factor must be positive")
+    h, w = image.shape[:2]
+    return resize_to(image, int(round(w * factor)), h)
+
+
 def normalize_height(image: np.ndarray, target_height: int = 64, *, allow_downscale: bool = False) -> np.ndarray:
     """Rescale so the image is ``target_height`` pixels tall, preserving aspect ratio.
 
@@ -136,7 +168,7 @@ def gamma(image: np.ndarray, value: float) -> np.ndarray:
     """Gamma correction (``value < 1`` brightens mid-tones, ``> 1`` darkens)."""
     if value <= 0:
         raise ValueError("gamma must be positive")
-    table = (np.linspace(0, 1, 256) ** value * 255).astype(np.uint8)
+    table = np.clip(np.rint(np.linspace(0, 1, 256) ** value * 255), 0, 255).astype(np.uint8)
     return cv2.LUT(_as_uint8(image), table)
 
 
@@ -191,26 +223,54 @@ def auto_polarity(image: np.ndarray) -> np.ndarray:
     return invert(image) if is_light_on_dark(image) else image.copy()
 
 
-def tighten_vertical(image: np.ndarray, *, margin: int = 4, ink_fraction: float = 0.02) -> np.ndarray:
-    """Trim rows above/below the text line based on the horizontal ink profile.
+def text_row_band(
+    image: np.ndarray, *, margin: int = 4, fraction: float = 0.25, min_height: int = 8
+) -> tuple[int, int] | None:
+    """Locate the rows occupied by the text line as ``(y1, y2)`` (``y2`` exclusive).
 
-    Rows whose share of "ink" pixels (darker than Otsu after polarity fix) is
-    below ``ink_fraction`` are considered margin.  ``margin`` rows are kept on
-    each side.  Returns a copy of the input when nothing convincing is found.
+    Uses the per-row mean of the *horizontal* gradient: glyph strokes are
+    vertical edges, whereas the horizontal borders of a name/set-code strip
+    contribute almost nothing, so the heuristic is polarity-independent and
+    ignores the frame lines a slightly misaligned ROI drags in.  The band is
+    the contiguous run of rows around the strongest row whose energy stays
+    above ``fraction`` of the peak, widened by ``margin`` rows.  Returns
+    ``None`` when the image is too small or the band is not convincing.
     """
-    gray = to_gray(auto_polarity(image))
+    gray = to_gray(image)
     h = gray.shape[0]
-    if h < 2 * margin + 4:
+    if h < max(min_height, 2 * margin + 4) or gray.shape[1] < 4:
+        return None
+    energy = np.abs(cv2.Sobel(gray.astype(np.float32), cv2.CV_32F, 1, 0, ksize=3)).mean(axis=1)
+    energy = cv2.GaussianBlur(energy.reshape(-1, 1), (1, 5), 0).ravel()
+    peak_value = float(energy.max())
+    if peak_value <= 0:
+        return None
+    threshold = peak_value * fraction
+    peak = int(np.argmax(energy))
+    y1 = peak
+    while y1 > 0 and energy[y1 - 1] >= threshold:
+        y1 -= 1
+    y2 = peak
+    while y2 < h - 1 and energy[y2 + 1] >= threshold:
+        y2 += 1
+    y1 = max(0, y1 - margin)
+    y2 = min(h, y2 + 1 + margin)
+    if y2 - y1 < min_height:
+        return None
+    return y1, y2
+
+
+def tighten_vertical(image: np.ndarray, *, margin: int = 4, fraction: float = 0.25) -> np.ndarray:
+    """Crop the image to its text line (see :func:`text_row_band`).
+
+    A taller share of the strip for the glyphs means more effective resolution
+    once the recognizer normalizes the height.  Returns a copy of the input when
+    no convincing band is found, so it is always safe to chain.
+    """
+    band = text_row_band(image, margin=margin, fraction=fraction)
+    if band is None:
         return image.copy()
-    threshold, _ = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    ink = (gray < threshold).mean(axis=1)
-    rows = np.flatnonzero(ink >= ink_fraction)
-    if rows.size == 0:
-        return image.copy()
-    y1 = max(0, int(rows[0]) - margin)
-    y2 = min(h, int(rows[-1]) + 1 + margin)
-    if y2 - y1 < 8:
-        return image.copy()
+    y1, y2 = band
     return image[y1:y2].copy()
 
 
