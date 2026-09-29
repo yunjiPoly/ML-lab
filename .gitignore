@@ -1,0 +1,50 @@
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- secrets / local config ---
+.env
+.env.*
+!.env.example
+
+# --- generated data ---
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.db
+data/cards/
+!data/cards/.gitkeep
+data/debug/
+!data/debug/.gitkeep
+data/uploads/
+data/embeddings*
+data/test/
+!data/test/.gitkeep
+
+# --- model caches ---
+.paddlex/
+.paddleocr/
+models/
+*.pdparams
+*.pdmodel
+*.onnx
+
+# --- frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vite/
+
+# --- editors / os ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

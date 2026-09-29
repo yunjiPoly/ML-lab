@@ -1,0 +1,37 @@
+# Backend runtime + test dependencies.
+#
+# Install into the existing virtual environment from the repository root:
+#   .venv\Scripts\activate
+#   pip install -r backend\requirements.txt
+#   pip install -e backend --no-deps
+#
+# PaddlePaddle / PaddleOCR are kept on compatible-release ranges that are known to
+# work together on Windows + Python 3.13. Do NOT bump them independently.
+# torch / transformers are intentionally NOT listed: the MVP does not need them.
+# They stay installed in the venv for the future DINOv2 visual fallback.
+
+# --- web / api ---
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+pydantic>=2.11,<3
+pydantic-settings==2.15.0
+
+# --- database ---
+sqlalchemy==2.1.1
+
+# --- matching / cli ---
+rapidfuzz==3.14.6
+typer>=0.12,<1
+
+# --- imaging / ocr ---
+numpy>=2.0,<3
+opencv-python>=4.10,<6
+pillow>=10,<13
+requests>=2.32,<3
+paddlepaddle>=3.2.0,<3.3
+paddleocr>=3.7.0,<4
+
+# --- tests ---
+pytest==9.1.1
+httpx>=0.27,<1
