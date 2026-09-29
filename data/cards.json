@@ -3,60 +3,3003 @@
     "id": 89631139,
     "name": "Blue-Eyes White Dragon",
     "type": "Normal Monster",
-    "image": "data\\cards\\89631139.jpg"
+    "frame_type": "normal",
+    "description": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
+    "artworks": [
+      {
+        "id": 89631139,
+        "image": "data\\cards\\89631139.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631139.jpg"
+      },
+      {
+        "id": 89631140,
+        "image": "data\\cards\\89631140.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631140.jpg"
+      },
+      {
+        "id": 89631141,
+        "image": "data\\cards\\89631141.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631141.jpg"
+      },
+      {
+        "id": 89631142,
+        "image": "data\\cards\\89631142.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631142.jpg"
+      },
+      {
+        "id": 89631143,
+        "image": "data\\cards\\89631143.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631143.jpg"
+      },
+      {
+        "id": 89631144,
+        "image": "data\\cards\\89631144.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631144.jpg"
+      },
+      {
+        "id": 89631145,
+        "image": "data\\cards\\89631145.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631145.jpg"
+      },
+      {
+        "id": 89631146,
+        "image": "data\\cards\\89631146.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/89631146.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2016 Mega-Tins",
+        "set_code": "CT13-EN008",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "2017 Mega-Tins",
+        "set_code": "CT14-EN002",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "2022 Tin of the Pharaoh's Gods",
+        "set_code": "MP22-EN266",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "25th Anniversary Tin: Dueling Mirrors",
+        "set_code": "MP24-EN001",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "25th Anniversary Ultimate Kaiba Set",
+        "set_code": "KC01-EN000",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "25th Anniversary Ultimate Kaiba Set",
+        "set_code": "KC01-EN004",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Anniversary Pack",
+        "set_code": "YAP1-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Battles of Legend: Monster Mayhem",
+        "set_code": "BLMM-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Monster Mayhem",
+        "set_code": "BLMM-EN001",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Booster Pack Collectors Tins 2002",
+        "set_code": "BPT-003",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Collectible Tins 2003",
+        "set_code": "BPT-009",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN098",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN002",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Dragons Collide Structure Deck",
+        "set_code": "SDDC-EN004",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 1",
+        "set_code": "DTP1-EN001",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 2",
+        "set_code": "DTP1-EN001",
+        "rarity": "Duel Terminal Super Parallel Rare",
+        "rarity_code": "(DSPR)"
+      },
+      {
+        "set_name": "Duel Terminal 1",
+        "set_code": "DT01-EN001",
+        "rarity": "Duel Terminal Super Parallel Rare",
+        "rarity_code": "(DSPR)"
+      },
+      {
+        "set_name": "Duelist League 2010 participation cards",
+        "set_code": "DL09-EN001",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Pack: Battle City",
+        "set_code": "DPBC-EN016",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Duelist Pack: Kaiba",
+        "set_code": "DPKB-EN001",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Duelist Saga",
+        "set_code": "DUSA-EN043",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Forbidden Legacy",
+        "set_code": "FL1-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Ghosts From the Past: The 2nd Haunting",
+        "set_code": "GFP2-EN175",
+        "rarity": "Ghost Rare",
+        "rarity_code": "(GR)"
+      },
+      {
+        "set_name": "Gold Series: Haunted Mine",
+        "set_code": "GLD5-EN001",
+        "rarity": "Ghost/Gold Rare",
+        "rarity_code": "(GGR)"
+      },
+      {
+        "set_name": "Hidden Arsenal: Chapter 1",
+        "set_code": "HAC1-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Hidden Arsenal: Chapter 1",
+        "set_code": "HAC1-EN001",
+        "rarity": "Duel Terminal Ultra Parallel Rare",
+        "rarity_code": "(DUPR)"
+      },
+      {
+        "set_name": "KC Grand Tournament prize card",
+        "set_code": "2020-EN001",
+        "rarity": "Extra Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection",
+        "set_code": "LC01-EN004",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection Kaiba Mega Pack",
+        "set_code": "LCKC-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection: 25th Anniversary Edition",
+        "set_code": "LC01-EN004",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENK01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Duelists: Season 2",
+        "set_code": "LDS2-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Duelists: White Dragon Abyss",
+        "set_code": "LED3-EN006",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Magnificent Mavens",
+        "set_code": "MAMA-EN104",
+        "rarity": "Ultra Rare (Pharaoh's Rare)",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Maximum Gold",
+        "set_code": "MAGO-EN001",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Maximum Gold: El Dorado",
+        "set_code": "MGED-EN001",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "OTS Tournament Pack 28",
+        "set_code": "OP28-EN001",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Premium Gold: Return of the Bling",
+        "set_code": "PGL2-EN080",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN079",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN079",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN002",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN108",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN108",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN085",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN085",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Saga of Blue-Eyes White Dragon Structure Deck",
+        "set_code": "SDBE-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Shonen Jump Vol. 1, Issue 1 promotional card",
+        "set_code": "JMP-001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Duelists of Tomorrow",
+        "set_code": "SS02-ENA01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Tournament Pack 1",
+        "set_code": "STP1-EN004",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN087",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN087",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba",
+        "set_code": "SDK-001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba",
+        "set_code": "SDK-E001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba Evolution",
+        "set_code": "SKE-001",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba Reloaded",
+        "set_code": "YSKR-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba Reloaded",
+        "set_code": "YSKR-EN001",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Structure Deck: Blue-Eyes White Destiny",
+        "set_code": "SDWD-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Blue-Eyes White Destiny",
+        "set_code": "SDWD-EN002",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Blue-Eyes White Destiny",
+        "set_code": "SDWD-EN003",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Seto Kaiba",
+        "set_code": "SDKS-EN009",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Swedish Shonen Jump 2004, Issue 2 promotional card",
+        "set_code": "JMP-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Weekly Shonen Jump March 2014 membership promotional card",
+        "set_code": "JUMP-EN068",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "WSJ Jump Pack Spring 2016 promotional card",
+        "set_code": "JMPS-EN002",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Championship Series 2025 prize cards",
+        "set_code": "25YC-ENP01",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
+        "set_code": "DDS-001",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards",
+        "set_code": "PCK-001",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards",
+        "set_code": "PCK-E001",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack",
+        "set_code": "MVP1-EN055",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+        "set_code": "MVP1-ENS55",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+        "set_code": "MVP1-ENSV4",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Special Edition",
+        "set_code": "MVP1-ENSE4",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+        "set_code": "MVP1-ENG55",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+        "set_code": "MVP1-ENGV4",
+        "rarity": "Gold Secret Rare",
+        "rarity_code": "(GScR)"
+      },
+      {
+        "set_name": "Yugi & Kaiba Collector Box",
+        "set_code": "KACB-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      }
+    ]
   },
   {
     "id": 46986414,
     "name": "Dark Magician",
     "type": "Normal Monster",
-    "image": "data\\cards\\46986414.jpg"
+    "frame_type": "normal",
+    "description": "''The ultimate wizard in terms of attack and defense.''",
+    "artworks": [
+      {
+        "id": 46986414,
+        "image": "data\\cards\\46986414.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986414.jpg"
+      },
+      {
+        "id": 46986415,
+        "image": "data\\cards\\46986415.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986415.jpg"
+      },
+      {
+        "id": 46986416,
+        "image": "data\\cards\\46986416.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986416.jpg"
+      },
+      {
+        "id": 46986417,
+        "image": "data\\cards\\46986417.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986417.jpg"
+      },
+      {
+        "id": 46986418,
+        "image": "data\\cards\\46986418.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986418.jpg"
+      },
+      {
+        "id": 46986419,
+        "image": "data\\cards\\46986419.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986419.jpg"
+      },
+      {
+        "id": 36996508,
+        "image": "data\\cards\\36996508.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/36996508.jpg"
+      },
+      {
+        "id": 46986420,
+        "image": "data\\cards\\46986420.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986420.jpg"
+      },
+      {
+        "id": 46986421,
+        "image": "data\\cards\\46986421.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/46986421.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2016 Mega-Tins",
+        "set_code": "CT13-EN003",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "2017 Mega-Tins",
+        "set_code": "CT14-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battle of Chaos",
+        "set_code": "25TH-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Booster Pack Collectors Tins 2002",
+        "set_code": "BPT-001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Collectible Tins 2003",
+        "set_code": "BPT-007",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN102",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN004",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duel Power",
+        "set_code": "DUPO-EN101",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 1",
+        "set_code": "DTP1-EN002",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 2",
+        "set_code": "DTP1-EN002",
+        "rarity": "Duel Terminal Rare Parallel Rare",
+        "rarity_code": "(DRPR)"
+      },
+      {
+        "set_name": "Duel Terminal 1",
+        "set_code": "DT01-EN002",
+        "rarity": "Duel Terminal Rare Parallel Rare",
+        "rarity_code": "(DRPR)"
+      },
+      {
+        "set_name": "Duelist League 2 participation cards",
+        "set_code": "DL11-EN001",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Pack: Battle City",
+        "set_code": "DPBC-EN008",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN001",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Saga",
+        "set_code": "DUSA-EN100",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Forbidden Legacy",
+        "set_code": "FL1-EN002",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Ghosts From the Past",
+        "set_code": "GFTP-EN128",
+        "rarity": "Ghost Rare",
+        "rarity_code": "(GR)"
+      },
+      {
+        "set_name": "KC Grand Tournament 2021 prize card",
+        "set_code": "2021-EN001",
+        "rarity": "Extra Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-005",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E003",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN005",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection",
+        "set_code": "LC01-EN005",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENY10",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Dragon Decks",
+        "set_code": "LEDD-ENA01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Maximum Gold",
+        "set_code": "MAGO-EN002",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN080",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN080",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN001",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN106",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN106",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN083",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN083",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN003",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Shonen Jump Vol. 9, Issue 4 promotional card",
+        "set_code": "JUMP-EN049",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Destiny Masters",
+        "set_code": "SS01-ENA01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Match of the Millennium",
+        "set_code": "SS04-ENA01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Tournament Pack 1",
+        "set_code": "STP1-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi",
+        "set_code": "SDY-006",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi",
+        "set_code": "SDY-E005",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Evolution",
+        "set_code": "SYE-001",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Reloaded",
+        "set_code": "YSYR-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Reloaded",
+        "set_code": "YSYR-EN001",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Structure Deck: Spellcaster's Judgment",
+        "set_code": "SD6-EN003",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Yugi Muto",
+        "set_code": "SDMY-EN010",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "WSJ Jump Pack Fall 2016 promotional card",
+        "set_code": "JMPS-EN003",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
+        "set_code": "DDS-002",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+        "set_code": "PCY-004",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+        "set_code": "PCY-E004",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack",
+        "set_code": "MVP1-EN054",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+        "set_code": "MVP1-ENS54",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+        "set_code": "MVP1-ENSV3",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Special Edition",
+        "set_code": "MVP1-ENSE3",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+        "set_code": "MVP1-ENG54",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+        "set_code": "MVP1-ENGV3",
+        "rarity": "Gold Secret Rare",
+        "rarity_code": "(GScR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA03",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC09",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      }
+    ]
   },
   {
     "id": 38033121,
     "name": "Dark Magician Girl",
     "type": "Effect Monster",
-    "image": "data\\cards\\38033121.jpg"
+    "frame_type": "effect",
+    "description": "Gains 300 ATK for every \"Dark Magician\" or \"Magician of Black Chaos\" in the GY.",
+    "artworks": [
+      {
+        "id": 38033121,
+        "image": "data\\cards\\38033121.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033121.jpg"
+      },
+      {
+        "id": 38033122,
+        "image": "data\\cards\\38033122.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033122.jpg"
+      },
+      {
+        "id": 38033123,
+        "image": "data\\cards\\38033123.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033123.jpg"
+      },
+      {
+        "id": 38033124,
+        "image": "data\\cards\\38033124.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033124.jpg"
+      },
+      {
+        "id": 38033125,
+        "image": "data\\cards\\38033125.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033125.jpg"
+      },
+      {
+        "id": 38033126,
+        "image": "data\\cards\\38033126.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/38033126.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2-Player Starter Set",
+        "set_code": "STAX-EN020",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "2022 Tin of the Pharaoh's Gods",
+        "set_code": "MP22-EN268",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "25th Anniversary Tin: Dueling Mirrors",
+        "set_code": "MP24-EN009",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "25th Anniversary Tin: Dueling Mirrors",
+        "set_code": "MP24-EN053",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN003",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN003",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Collectible Tins 2005",
+        "set_code": "CT2-EN004",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Duel Terminal 6b",
+        "set_code": "DT06-EN064",
+        "rarity": "Duel Terminal Super Parallel Rare",
+        "rarity_code": "(DSPR)"
+      },
+      {
+        "set_name": "Duelist League 18 participation cards",
+        "set_code": "DL18-EN003",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Pack: Battle City",
+        "set_code": "DPBC-EN009",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN008",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Event Pack Speed Duel",
+        "set_code": "EVSD-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Ghosts From the Past: The 2nd Haunting",
+        "set_code": "GFP2-EN177",
+        "rarity": "Ghost Rare",
+        "rarity_code": "(GR)"
+      },
+      {
+        "set_name": "Ghosts From the Past: The 2nd Haunting",
+        "set_code": "GTP2-EN177",
+        "rarity": "Ghost Rare",
+        "rarity_code": "(GR)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN022",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENY11",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Dragon Decks",
+        "set_code": "LEDD-ENA02",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Duelists: Magical Hero",
+        "set_code": "LED6-EN000",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Duelists: Season 3",
+        "set_code": "LDS3-EN082",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Magician's Force",
+        "set_code": "MFC-000",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Magnificent Mavens",
+        "set_code": "MAMA-EN107",
+        "rarity": "Ultra Rare (Pharaoh's Rare)",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Premium Gold",
+        "set_code": "PGLD-EN033",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN123",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN123",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN107",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN107",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN084",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN084",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Rise of Destiny: Special Edition",
+        "set_code": "RDS-ENSE2",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Destiny Masters",
+        "set_code": "SS01-ENA04",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Tournament Pack 1",
+        "set_code": "STP1-EN002",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Speed Duel: Streets of Battle City",
+        "set_code": "SBC1-ENA05",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Streets of Battle City",
+        "set_code": "SBC1-ENA05",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Reloaded",
+        "set_code": "YSYR-EN011",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Yugi Muto",
+        "set_code": "SDMY-EN011",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "The Lost Art Promotion 2020 G",
+        "set_code": "LART-EN019",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "The Lost Art Promotion 2021 E",
+        "set_code": "LART-EN035",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack",
+        "set_code": "MVP1-EN056",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+        "set_code": "MVP1-ENS56",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+        "set_code": "MVP1-ENG56",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA04",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB03",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC10",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
   },
   {
     "id": 74677422,
     "name": "Red-Eyes Black Dragon",
     "type": "Normal Monster",
-    "image": "data\\cards\\74677422.jpg"
+    "frame_type": "normal",
+    "description": "''A ferocious dragon with a deadly attack.''",
+    "artworks": [
+      {
+        "id": 74677422,
+        "image": "data\\cards\\74677422.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677422.jpg"
+      },
+      {
+        "id": 74677423,
+        "image": "data\\cards\\74677423.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677423.jpg"
+      },
+      {
+        "id": 74677424,
+        "image": "data\\cards\\74677424.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677424.jpg"
+      },
+      {
+        "id": 74677425,
+        "image": "data\\cards\\74677425.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677425.jpg"
+      },
+      {
+        "id": 74677426,
+        "image": "data\\cards\\74677426.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677426.jpg"
+      },
+      {
+        "id": 74677427,
+        "image": "data\\cards\\74677427.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/74677427.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "25th Anniversary Tin: Dueling Mirrors",
+        "set_code": "MP24-EN054",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Anniversary Pack",
+        "set_code": "YAP1-EN002",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Booster Pack Collectors Tins 2002",
+        "set_code": "BPT-005",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN126",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN012",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Dragons Collide Structure Deck",
+        "set_code": "SDDC-EN005",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 1",
+        "set_code": "DTP1-EN003",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 2",
+        "set_code": "DTP1-EN003",
+        "rarity": "Duel Terminal Rare Parallel Rare",
+        "rarity_code": "(DRPR)"
+      },
+      {
+        "set_name": "Duel Terminal 1",
+        "set_code": "DT01-EN003",
+        "rarity": "Duel Terminal Rare Parallel Rare",
+        "rarity_code": "(DRPR)"
+      },
+      {
+        "set_name": "Duelist Pack: Battle City",
+        "set_code": "DPBC-EN021",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Hidden Arsenal: Chapter 1",
+        "set_code": "HAC1-EN003",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-070",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E056",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN070",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection",
+        "set_code": "LC01-EN006",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection 4: Joey's World Mega Pack",
+        "set_code": "LCJW-EN003",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENJ01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Duelists",
+        "set_code": "LEDU-EN000",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Duelists: Season 1",
+        "set_code": "LDS1-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Maximum Gold",
+        "set_code": "MAGO-EN003",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Maximum Gold: El Dorado",
+        "set_code": "MGED-EN003",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Millennium Pack",
+        "set_code": "MIL1-EN027",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Nike collaboration cards",
+        "set_code": "NKC1-EN002",
+        "rarity": "Reprint",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN081",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN081",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN109",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Stampede",
+        "set_code": "RA04-EN109",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN086",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN086",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN011",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Shonen Jump Vol. 2, Issue 1 promotional card",
+        "set_code": "JMP-002",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Duelists of Tomorrow",
+        "set_code": "SS02-ENB01",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Tournament Pack 1",
+        "set_code": "STP1-EN007",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN167",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN167",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Starter Deck: Joey",
+        "set_code": "SDJ-001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Structure Deck: Dragon's Roar",
+        "set_code": "SD1-EN002",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Swedish Shonen Jump 2005, Issue 12 promotional card",
+        "set_code": "JMP-EN002",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards",
+        "set_code": "PCJ-EN001",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      }
+    ]
   },
   {
     "id": 33396948,
     "name": "Exodia the Forbidden One",
     "type": "Effect Monster",
-    "image": "data\\cards\\33396948.jpg"
+    "frame_type": "effect",
+    "description": "If you have \"Right Leg of the Forbidden One\", \"Left Leg of the Forbidden One\", \"Right Arm of the Forbidden One\" and \"Left Arm of the Forbidden One\" in addition to this card in your hand, you win the Duel.",
+    "artworks": [
+      {
+        "id": 33396948,
+        "image": "data\\cards\\33396948.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/33396948.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "25th Anniversary Tin: Dueling Heroes",
+        "set_code": "TN23-EN002",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Battles of Legend: Crystal Revenge",
+        "set_code": "BLCR-EN101",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN002",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN002",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN139",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN022",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Duelist League 2 participation cards",
+        "set_code": "DL11-EN006",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-124",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E101",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN124",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN306",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENY04",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Limited Pack World Championship 2025",
+        "set_code": "25LP-EN000",
+        "rarity": "New artwork",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Master Collection Volume 1",
+        "set_code": "MC1-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Maximum Gold: El Dorado",
+        "set_code": "MGED-EN005",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "OTS Tournament Pack 25",
+        "set_code": "OP25-EN001",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Premium Gold: Return of the Bling",
+        "set_code": "PGL2-EN026",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN021",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "The Lost Art Promotion (series)",
+        "set_code": "LART-EN004",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "The Lost Art Promotion D",
+        "set_code": "LART-EN004",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "WCS 2025 Limited Pack",
+        "set_code": "25LP-EN000",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "WCS 2025 Limited Pack",
+        "set_code": "25LP-EN000",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
+        "set_code": "DDS-003",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! GX Ultimate Beginner's Pack",
+        "set_code": "UBP1-EN005",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA17",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      }
+    ]
   },
   {
     "id": 40640057,
     "name": "Kuriboh",
     "type": "Effect Monster",
-    "image": "data\\cards\\40640057.jpg"
+    "frame_type": "effect",
+    "description": "During damage calculation, if your opponent's monster attacks (Quick Effect): You can discard this card; you take no battle damage from that battle.",
+    "artworks": [
+      {
+        "id": 40640057,
+        "image": "data\\cards\\40640057.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/40640057.jpg"
+      },
+      {
+        "id": 40640058,
+        "image": "data\\cards\\40640058.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/40640058.jpg"
+      },
+      {
+        "id": 40640059,
+        "image": "data\\cards\\40640059.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/40640059.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "Brothers of Legend",
+        "set_code": "BROL-EN062",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Champion Pack: Game Two",
+        "set_code": "CP02-EN006",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Dark Beginning 2",
+        "set_code": "DB2-EN044",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN038",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duel Terminal - Preview Wave 1",
+        "set_code": "DTP1-EN007",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duel Terminal 1",
+        "set_code": "DT01-EN007",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duelist League 2010 participation cards",
+        "set_code": "DL09-EN003",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Pack: Battle City",
+        "set_code": "DPBC-EN015",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN005",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Forbidden Legacy",
+        "set_code": "FL1-EN003",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Hidden Arsenal: Chapter 1",
+        "set_code": "HAC1-EN005",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Hidden Arsenal: Chapter 1",
+        "set_code": "HAC1-EN005",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN018",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-071",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-E071",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-EN071",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Millennium Pack",
+        "set_code": "MIL1-EN034",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN037",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Match of the Millennium",
+        "set_code": "SS04-ENA13",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck 2006",
+        "set_code": "YSD-EN013",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Evolution",
+        "set_code": "SYE-019",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Reloaded",
+        "set_code": "YSYR-EN008",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Yugi Muto",
+        "set_code": "SDMY-EN020",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Advent Calendar (2019)",
+        "set_code": "AC19-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+        "set_code": "PCY-005",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+        "set_code": "PCY-E005",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA22",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB15",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC23",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
   },
   {
     "id": 83764719,
     "name": "Monster Reborn",
     "type": "Spell Card",
-    "image": "data\\cards\\83764719.jpg"
+    "frame_type": "spell",
+    "description": "Target 1 monster in either GY; Special Summon it.",
+    "artworks": [
+      {
+        "id": 83764719,
+        "image": "data\\cards\\83764719.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/83764719.jpg"
+      },
+      {
+        "id": 83764718,
+        "image": "data\\cards\\83764718.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/83764718.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2019 Gold Sarcophagus Tin",
+        "set_code": "TN19-EN011",
+        "rarity": "Prismatic Secret Rare",
+        "rarity_code": "(PScR)"
+      },
+      {
+        "set_name": "25th Anniversary Ultimate Kaiba Set",
+        "set_code": "KC01-EN037",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Battle Pack 2: War of the Giants",
+        "set_code": "BP02-EN128",
+        "rarity": "Mosaic Rare",
+        "rarity_code": "(MSR)"
+      },
+      {
+        "set_name": "Battle Pack 2: War of the Giants",
+        "set_code": "BP02-EN128",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Battles of Legend: Relentless Revenge",
+        "set_code": "BLRR-EN046",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN133",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN017",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN019",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Egyptian God Deck: Obelisk the Tormentor",
+        "set_code": "EGO1-EN024",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Egyptian God Deck: Slifer the Sky Dragon",
+        "set_code": "EGS1-EN023",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Hobby League 7 participation card A",
+        "set_code": "HL07-EN001",
+        "rarity": "Ultra Parallel Rare",
+        "rarity_code": "(UPR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-118",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E096",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN118",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary 5D&apos;s Decks",
+        "set_code": "L5DD-ENA15",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN058",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Collection 4: Joey's World Mega Pack",
+        "set_code": "LCJW-EN060",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Duelists: Rage of Ra",
+        "set_code": "LED7-EN012",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Hero Decks",
+        "set_code": "LEHD-ENA23",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Hero Decks",
+        "set_code": "LEHD-ENB19",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Hero Decks",
+        "set_code": "LEHD-ENC16",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Limited Pack World Championship 2026",
+        "set_code": "26LP-EN001",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Limited Pack World Championship 2026",
+        "set_code": "26LP-EN001",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Maximum Gold",
+        "set_code": "MAGO-EN045",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Collector's Rare",
+        "rarity_code": "(CR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN052",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN108",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Rarity Collection 5",
+        "set_code": "RA05-EN108",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN016",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Saga of Blue-Eyes White Dragon Structure Deck",
+        "set_code": "SDBE-EN028",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Codebreaker",
+        "set_code": "YS18-EN024",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Joey",
+        "set_code": "SDJ-035",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba",
+        "set_code": "SDK-036",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba",
+        "set_code": "SDK-E033",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Kaiba Evolution",
+        "set_code": "SKE-029",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Pegasus",
+        "set_code": "SDP-035",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi",
+        "set_code": "SDY-030",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi",
+        "set_code": "SDY-E028",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Evolution",
+        "set_code": "SYE-029",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "THANK YOU PACK",
+        "set_code": "TYP1-EN018",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "THANK YOU PACK",
+        "set_code": "TYP1-EN018",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "The Lost Art Promotion (series)",
+        "set_code": "LART-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "The Lost Art Promotion 2024 H",
+        "set_code": "LART-EN074",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "The Lost Art Promotion A",
+        "set_code": "LART-EN001",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA23",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB16",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC24",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
   },
   {
     "id": 55144522,
     "name": "Pot of Greed",
     "type": "Spell Card",
-    "image": "data\\cards\\55144522.jpg"
+    "frame_type": "spell",
+    "description": "Draw 2 cards.",
+    "artworks": [
+      {
+        "id": 55144522,
+        "image": "data\\cards\\55144522.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/55144522.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2025 Mega-Pack Tin",
+        "set_code": "MP25-EN050",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Battle Pack 2: War of the Giants",
+        "set_code": "BP02-EN129",
+        "rarity": "Mosaic Rare",
+        "rarity_code": "(MSR)"
+      },
+      {
+        "set_name": "Battle Pack 2: War of the Giants",
+        "set_code": "BP02-EN129",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Battle Pack: Epic Dawn",
+        "set_code": "BP01-EN034",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Battle Pack: Epic Dawn",
+        "set_code": "BP01-EN034",
+        "rarity": "Starfoil Rare",
+        "rarity_code": "(SFR)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN134",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Duelist Pack: Kaiba",
+        "set_code": "DPKB-EN029",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-119",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN119",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN059",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Collection 4: Joey's World Mega Pack",
+        "set_code": "LCJW-EN061",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Magic Ruler",
+        "set_code": "MRL-E129",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Evolution",
+        "set_code": "SYE-040",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Blaze of Destruction",
+        "set_code": "SD3-EN019",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Dragon's Roar",
+        "set_code": "SD1-EN015",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Fury from the Deep",
+        "set_code": "SD4-EN018",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Zombie Madness",
+        "set_code": "SD2-EN017",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "The Pot Collection",
+        "set_code": "TBC1-EN001",
+        "rarity": "Ultra Parallel Rare",
+        "rarity_code": "(UPR)"
+      },
+      {
+        "set_name": "The Pot Collection",
+        "set_code": "TBC1-ENS01",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Tournament Pack: 3rd Season",
+        "set_code": "TP3-014",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB26",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
   },
   {
     "id": 44095762,
     "name": "Mirror Force",
     "type": "Trap Card",
-    "image": "data\\cards\\44095762.jpg"
+    "frame_type": "trap",
+    "description": "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters.",
+    "artworks": [
+      {
+        "id": 44095762,
+        "image": "data\\cards\\44095762.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/44095762.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2-Player Starter Deck: Yuya & Declan",
+        "set_code": "YS15-END16",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Battle Pack: Epic Dawn",
+        "set_code": "BP01-EN048",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Battle Pack: Epic Dawn",
+        "set_code": "BP01-EN048",
+        "rarity": "Starfoil Rare",
+        "rarity_code": "(SFR)"
+      },
+      {
+        "set_name": "Dark Beginning 2",
+        "set_code": "DB2-EN081",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Dark Legion Starter Deck",
+        "set_code": "YS15-ENL22",
+        "rarity": "Shatterfoil Rare",
+        "rarity_code": "(SHR)"
+      },
+      {
+        "set_name": "Dark Saviors",
+        "set_code": "DASA-EN059",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Demo Deck 2016",
+        "set_code": "DEM3-EN017",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Dragunity Legion Structure Deck",
+        "set_code": "SDDL-EN035",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duelist League 15 participation cards",
+        "set_code": "DL15-EN018",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN027",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Duelist Saga",
+        "set_code": "DUSA-EN048",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Egyptian God Deck: Slifer the Sky Dragon",
+        "set_code": "EGS1-EN034",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Gold Series",
+        "set_code": "GLD1-EN039",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN091",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Collection 4: Joey's World Mega Pack",
+        "set_code": "LCJW-EN130",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Collection Kaiba Mega Pack",
+        "set_code": "LCKC-EN053",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENY35",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Dragon Decks",
+        "set_code": "LEDD-ENA32",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Magnificent Mavens",
+        "set_code": "MAMA-EN115",
+        "rarity": "Ultra Rare (Pharaoh's Rare)",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-138",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-E138",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Metal Raiders",
+        "set_code": "MRD-EN138",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Premium Gold",
+        "set_code": "PGLD-EN059",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN093",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN093",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Saber Force Starter Deck",
+        "set_code": "YS15-ENF21",
+        "rarity": "Shatterfoil Rare",
+        "rarity_code": "(SHR)"
+      },
+      {
+        "set_name": "Space-Time Showdown Power-Up Pack",
+        "set_code": "YS14-ENA12",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Codebreaker",
+        "set_code": "YS18-EN036",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Dawn of the Xyz",
+        "set_code": "YS11-EN036",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Link Strike",
+        "set_code": "YS17-EN034",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Starter Deck: Yugi Reloaded",
+        "set_code": "YSYR-EN040",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Marik (TCG)",
+        "set_code": "SDMA-EN030",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Rokket Revolt",
+        "set_code": "SDRR-EN038",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Yugi Muto",
+        "set_code": "SDMY-EN037",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Super Starter Power-Up Pack",
+        "set_code": "YS13-ENV14",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA37",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB33",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC36",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
   },
   {
     "id": 24094653,
     "name": "Polymerization",
     "type": "Spell Card",
-    "image": "data\\cards\\24094653.jpg"
+    "frame_type": "spell",
+    "description": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material.",
+    "artworks": [
+      {
+        "id": 24094653,
+        "image": "data\\cards\\24094653.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/24094653.jpg"
+      },
+      {
+        "id": 27847700,
+        "image": "data\\cards\\27847700.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/27847700.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Collector's Rare",
+        "rarity_code": "(CR)"
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "25th Anniversary Rarity Collection II",
+        "set_code": "RA02-EN047",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "25th Anniversary Ultimate Kaiba Set",
+        "set_code": "KC01-EN038",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Advanced Demo Deck Extra Pack",
+        "set_code": "DEM4-EN001",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Dark Beginning 1",
+        "set_code": "DB1-EN119",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Dark Legends",
+        "set_code": "DLG1-EN009",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duel Terminal 4",
+        "set_code": "DT04-EN043",
+        "rarity": "Duel Terminal Normal Parallel Rare",
+        "rarity_code": "(DNPR)"
+      },
+      {
+        "set_name": "Duelist Pack: Jaden Yuki",
+        "set_code": "DP1-EN014",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duelist Pack: Kaiba",
+        "set_code": "DPKB-EN028",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Duelist Pack: Yugi",
+        "set_code": "DPYG-EN020",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Fusion Enforcers",
+        "set_code": "FUEN-EN049",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "HERO Strike Structure Deck",
+        "set_code": "SDHS-EN023",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Justice Hunters",
+        "set_code": "JUSH-EN014",
+        "rarity": "Rare",
+        "rarity_code": "(R)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-059",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-E047",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Legend of Blue Eyes White Dragon",
+        "set_code": "LOB-EN059",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Legendary Arc-V Decks",
+        "set_code": "LAVD-ENL14",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+        "set_code": "LCYW-EN056",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Legendary Collection 4: Joey's World Mega Pack",
+        "set_code": "LCJW-EN059",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Legendary Collection Kaiba Mega Pack",
+        "set_code": "LCKC-EN026",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENJ26",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Decks II",
+        "set_code": "LDK2-ENK22",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Legendary Hero Decks",
+        "set_code": "LEHD-ENA22",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Master of Pendulum Structure Deck",
+        "set_code": "SDMP-EN034",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Maximum Gold",
+        "set_code": "MAGO-EN044",
+        "rarity": "Premium Gold Rare",
+        "rarity_code": "(PG)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Collector's Rare",
+        "rarity_code": "(CR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Platinum Secret Rare",
+        "rarity_code": "(PS)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Quarter Century Secret Rare",
+        "rarity_code": ""
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Super Rare",
+        "rarity_code": "(SR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Ultimate Rare",
+        "rarity_code": "(UtR)"
+      },
+      {
+        "set_name": "Quarter Century Bonanza",
+        "set_code": "RA03-EN051",
+        "rarity": "Ultra Rare",
+        "rarity_code": "(UR)"
+      },
+      {
+        "set_name": "Retro Pack",
+        "set_code": "RP01-EN008",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel GX: Duel Academy Box",
+        "set_code": "SGX1-ENA12",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel GX: Duel Academy Box",
+        "set_code": "SGX1-ENA12",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Speed Duel GX: Duel Academy Box",
+        "set_code": "SGX1-ENB10",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel GX: Duel Academy Box",
+        "set_code": "SGX1-ENC12",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel GX: Duel Academy Box",
+        "set_code": "SGX1-ENG11",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel GX: Midterm Paradox",
+        "set_code": "SGX2-ENA12",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Duelists of Tomorrow",
+        "set_code": "SS02-ENB11",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Match of the Millennium",
+        "set_code": "SS04-ENA18",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel Starter Decks: Match of the Millennium",
+        "set_code": "SS04-ENB22",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Battle City Box",
+        "set_code": "SBCB-EN011",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Streets of Battle City",
+        "set_code": "SBC1-ENB13",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Speed Duel: Streets of Battle City",
+        "set_code": "SBC1-ENH15",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Star Pack ARC-V",
+        "set_code": "SP15-EN038",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Star Pack ARC-V",
+        "set_code": "SP15-EN038",
+        "rarity": "Shatterfoil Rare",
+        "rarity_code": "(SHR)"
+      },
+      {
+        "set_name": "Starter Deck: Joey",
+        "set_code": "SDJ-036",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Rokket Revolt",
+        "set_code": "SDRR-EN031",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Structure Deck: Yugi Muto",
+        "set_code": "SDMY-EN031",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENA35",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENB30",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      },
+      {
+        "set_name": "Yugi's Legendary Decks",
+        "set_code": "YGLD-ENC28",
+        "rarity": "Common",
+        "rarity_code": "(C)"
+      }
+    ]
+  },
+  {
+    "id": 88033975,
+    "name": "Armades, Keeper of Boundaries",
+    "type": "Synchro Monster",
+    "frame_type": "synchro",
+    "description": "1 Tuner + 1 or more non-Tuner monsters\nIf this card attacks or is attacked, your opponent cannot activate cards or effects until the end of the Damage Step.",
+    "artworks": [
+      {
+        "id": 88033975,
+        "image": "data\\cards\\88033975.jpg",
+        "image_url": "https://images.ygoprodeck.com/images/cards/88033975.jpg"
+      }
+    ],
+    "printings": [
+      {
+        "set_name": "2014 Mega-Tin Mega Pack",
+        "set_code": "MP14-EN095",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN090",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Battles of Legend: Glorious Gallery",
+        "set_code": "BLGG-EN090",
+        "rarity": "Starlight Rare",
+        "rarity_code": "(StR)"
+      },
+      {
+        "set_name": "Judgment of the Light",
+        "set_code": "JOTL-EN045",
+        "rarity": "Secret Rare",
+        "rarity_code": "(ScR)"
+      },
+      {
+        "set_name": "Premium Gold: Return of the Bling",
+        "set_code": "PGL2-EN043",
+        "rarity": "Gold Rare",
+        "rarity_code": "(GUR)"
+      }
+    ]
   }
 ]

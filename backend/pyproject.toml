@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ygo-card-recognizer-backend"
+version = "0.1.0"
+description = "Yu-Gi-Oh! physical card recognition backend: OpenCV geometry + PaddleOCR + database resolver."
+requires-python = ">=3.11"
+# Runtime dependencies are pinned in requirements.txt (the file used for installs).
+# This list keeps `pip install -e backend --no-deps` metadata honest.
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.4",
+    "python-multipart>=0.0.9",
+    "rapidfuzz>=3.9",
+    "typer>=0.12",
+    "numpy>=1.26",
+    "opencv-python>=4.10",
+    "pillow>=10",
+    "requests>=2.32",
+    "paddlepaddle>=3.2.0,<3.3",
+    "paddleocr>=3.7.0,<4",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: end-to-end tests that need real models, network, or local-only photos",
+    "ocr: tests that load the real PaddleOCR model",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
